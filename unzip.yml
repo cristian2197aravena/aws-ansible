@@ -1,0 +1,13 @@
+---
+- name: Instalación de Unzip
+  hosts: webservers
+  become: yes
+  #remote_user: root
+  tasks:
+
+    - name: Install unzip package
+      apt:
+        name: unzip
+        state: present
+        update_cache: yes
+...
