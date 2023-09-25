@@ -1,2 +1,2 @@
 [webservers]
-${HOST} ansible_user=ubuntu 
+52.31.108.244 ansible_user=ubuntu 
