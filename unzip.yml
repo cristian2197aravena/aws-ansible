@@ -8,6 +8,6 @@
     - name: Install unzip package
       apt:
         name: unzip
-        state: absent
+        state: present
         update_cache: yes
 ...
